@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <div className="container text-center">
+      <hr />
       <h1>contact</h1>
       <hr />
       <div className="row">
