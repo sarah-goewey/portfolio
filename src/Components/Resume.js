@@ -52,6 +52,25 @@ const Resume = () => {
       <br />
       <h6>TECHNICAL PROJECTS</h6>
       <p>
+        <a href="https://backup-cash-register.onrender.com/">
+          Backup Cash Register
+        </a>{" "}
+        | Developer | August 2023{" "}
+      </p>
+      <p>
+        • Developed an intuitive cash register application for assisting retail
+        workers whose point-of-sale system has crashed
+      </p>
+      <p>
+        • Employed fixed-point decimal representation when calculating totals on
+        the front end
+      </p>
+      <p>
+        • Utilized a PostgreSQL database to enable users to persist and refer to
+        their transaction history
+      </p>
+      <br />
+      <p>
         <a href="https://cooking-party.onrender.com/">Cooking Party</a> |
         Co-developer | June 2023{" "}
       </p>
