@@ -9,9 +9,9 @@ const App = () => {
     <div className="container">
       <div className="position-relative">
         <div>
-          <div className="dropdown">
+          <div className="dropend">
             <button
-              className="btn btn-secondary btn-lg dropdown-toggle"
+              className="btn btn-outline-light btn-lg dropdown-toggle"
               type="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
