@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 
 const Resume = () => {
-  const [openItems, setOpenItems] = useState([]);
+  const [openItems, setOpenItems] = useState([
+    "collapseOne",
+    "collapseTwo",
+    "collapseThree",
+    "collapseFour",
+    "collapseFive",
+  ]);
 
   const handleAccordionClick = (id) => {
     if (openItems.includes(id)) {
