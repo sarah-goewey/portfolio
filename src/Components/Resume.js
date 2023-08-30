@@ -54,7 +54,7 @@ const Resume = () => {
           data-bs-parent="#accordionExample"
         >
           <div className="accordion-body">
-            <p>
+            <p style={{ textAlign: "left" }}>
               Full-stack Software Engineer who recently completed Fullstack
               Academy's Web Development Bootcamp; worked individually and in
               teams to develop multiple full-stack applications. Professional
@@ -123,7 +123,7 @@ const Resume = () => {
           }`}
           data-bs-parent="#accordionExample"
         >
-          <div className="accordion-body">
+          <div className="accordion-body" style={{ textAlign: "left" }}>
             <p>
               <a href="https://backup-cash-register.onrender.com/">
                 Backup Cash Register
@@ -142,7 +142,7 @@ const Resume = () => {
               • Utilized a PostgreSQL database to enable users to persist and
               refer to their transaction history
             </p>
-
+            <br />
             <p>
               <a href="https://cooking-party.onrender.com/">Cooking Party</a> |
               Co-developer | June 2023{" "}
@@ -161,7 +161,7 @@ const Resume = () => {
               WebSockets, Material UI, two third-party recipe APIs, and deployed
               using Render
             </p>
-
+            <br />
             <p>
               <a href="https://spiffy-stickies.onrender.com/#/">
                 Spiffy Stickies
@@ -203,10 +203,12 @@ const Resume = () => {
           }`}
           data-bs-parent="#accordionExample"
         >
-          <div className="accordion-body">
+          <div className="accordion-body" style={{ textAlign: "left" }}>
             <p>
-              Ecommerce Bookseller/Receiver/Shiftleader | Greenlight Bookstore |
-              Brooklyn, NY
+              <span className="text-primary-emphasis">
+                Greenlight Bookstore
+              </span>{" "}
+              | Ecommerce Bookseller/Receiver/Shiftleader | Brooklyn, NY
             </p>
             <p>July 2018 - June 2022</p>
             <p>
@@ -241,12 +243,14 @@ const Resume = () => {
           }`}
           data-bs-parent="#accordionExample"
         >
-          <div className="accordion-body">
-            <p>Fullstack Academy Web Development Bootcamp</p>
+          <div className="accordion-body" style={{ textAlign: "left" }}>
+            <p className="text-primary-emphasis">
+              Fullstack Academy Web Development Bootcamp
+            </p>
             <p>December 2022-June 2023</p>
             <p>Software Engineering Certificate</p>
-
-            <p>Northern Arizona University</p>
+            <br />
+            <p className="text-primary-emphasis">Northern Arizona University</p>
             <p>August 2009-May 2013</p>
             <p>Bachelor of Arts in Theatre Performance</p>
             <p>Graduated Summa Cum Laude with cumulative 4.0 GPA</p>
