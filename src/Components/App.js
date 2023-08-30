@@ -6,9 +6,9 @@ import { Link, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
-      <div className="row">
-        <div className="col">
+    <div className="container">
+      <div className="position-relative">
+        <div>
           <div className="dropdown">
             <button
               className="btn btn-secondary btn-lg dropdown-toggle"
@@ -37,7 +37,7 @@ const App = () => {
             </ul>
           </div>
         </div>
-        <div className="col">
+        <div className="position-absolute top-0 end-0">
           <h1>sarah goewey</h1>
         </div>
       </div>
