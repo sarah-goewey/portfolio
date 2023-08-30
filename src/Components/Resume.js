@@ -23,34 +23,37 @@ const Resume = () => {
       <hr />
       <h1>resume</h1>
       <hr />
-      <h2 className="text-primary-emphasis">Sarah Goewey</h2>
-      <h5>
-        Software Engineer <span className="text-primary-emphasis">|</span> New
-        York, NY
-      </h5>
-      <br />
-      <div className="row">
-        <div className="col">
-          <a href="https://www.linkedin.com/in/sarah-goewey-software-engineer/">
-            <button type="button" className="btn btn-primary-emphasis">
-              LinkedIn
-            </button>
-          </a>
+      <div className="card bg-primary-subtle">
+        <br />
+        <h2 className="card-title text-primary-emphasis">Sarah Goewey</h2>
+        <h5 className="card-subtitle text-body-secondary">
+          Software Engineer | New York, NY
+        </h5>
+        <br />
+        <div className="row">
+          <div className="col">
+            <a href="https://www.linkedin.com/in/sarah-goewey-software-engineer/">
+              <button type="button" className="btn btn-primary-emphasis">
+                LinkedIn
+              </button>
+            </a>
+          </div>
+          <div className="col">
+            <a href="https://github.com/sarah-goewey">
+              <button type="button" className="btn btn-primary-emphasis">
+                GitHub
+              </button>
+            </a>
+          </div>
+          <div className="col">
+            <a href="mailto:sarahgoewey627@gmail.com">
+              <button type="button" className="btn btn-primary-emphasis">
+                Email
+              </button>
+            </a>
+          </div>
         </div>
-        <div className="col">
-          <a href="https://github.com/sarah-goewey">
-            <button type="button" className="btn btn-primary-emphasis">
-              GitHub
-            </button>
-          </a>
-        </div>
-        <div className="col">
-          <a href="mailto:sarahgoewey627@gmail.com">
-            <button type="button" className="btn btn-primary-emphasis">
-              Email
-            </button>
-          </a>
-        </div>
+        <br />
       </div>
       <br />
       <div className="accordion-item">
