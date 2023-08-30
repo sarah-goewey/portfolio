@@ -23,20 +23,33 @@ const Resume = () => {
       <hr />
       <h1>resume</h1>
       <hr />
-      <h2>Sarah Goewey</h2>
-      <h5>Software Engineer</h5>
-      <h6>New York, NY</h6>
+      <h2 className="text-primary-emphasis">Sarah Goewey</h2>
+      <h5>
+        Software Engineer <span className="text-primary-emphasis">|</span> New
+        York, NY
+      </h5>
+      <br />
       <div className="row">
         <div className="col">
           <a href="https://www.linkedin.com/in/sarah-goewey-software-engineer/">
-            LinkedIn
+            <button type="button" className="btn btn-primary-emphasis">
+              LinkedIn
+            </button>
           </a>
         </div>
         <div className="col">
-          <a href="https://github.com/sarah-goewey">GitHub</a>
+          <a href="https://github.com/sarah-goewey">
+            <button type="button" className="btn btn-primary-emphasis">
+              GitHub
+            </button>
+          </a>
         </div>
         <div className="col">
-          <a href="mailto:sarahgoewey627@gmail.com">Email</a>
+          <a href="mailto:sarahgoewey627@gmail.com">
+            <button type="button" className="btn btn-primary-emphasis">
+              Email
+            </button>
+          </a>
         </div>
       </div>
       <br />
@@ -67,7 +80,7 @@ const Resume = () => {
               background in customer service and inventory management roles
               enables a unique perspective in designing user-friendly and
               efficient applications. Seeking to leverage skills to create
-              user-centric applications.
+              user-centric digital products.
             </p>
           </div>
         </div>
