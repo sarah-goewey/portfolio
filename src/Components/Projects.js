@@ -42,12 +42,16 @@ const Projects = () => {
               <div className="row">
                 <div className="col">
                   <a href="https://backup-cash-register.onrender.com/#/">
-                    Deployed Site
+                    <button type="button" className="btn btn-primary-emphasis">
+                      Deployed Site
+                    </button>
                   </a>
                 </div>
                 <div className="col">
                   <a href="https://github.com/sarah-goewey/backup-cash-register-2">
-                    GitHub
+                    <button type="button" className="btn btn-primary-emphasis">
+                      GitHub
+                    </button>
                   </a>
                 </div>
               </div>
@@ -88,12 +92,16 @@ const Projects = () => {
               <div className="row">
                 <div className="col">
                   <a href="https://caves-of-mercury.onrender.com/">
-                    Deployed Site
+                    <button type="button" className="btn btn-primary-emphasis">
+                      Deployed Site
+                    </button>
                   </a>
                 </div>
                 <div className="col">
                   <a href="https://github.com/sarah-goewey/harmoniums">
-                    GitHub
+                    <button type="button" className="btn btn-primary-emphasis">
+                      GitHub
+                    </button>
                   </a>
                 </div>
               </div>
@@ -135,12 +143,16 @@ const Projects = () => {
               <div className="row">
                 <div className="col">
                   <a href="https://cooking-party.onrender.com/">
-                    Deployed Site
+                    <button type="button" className="btn btn-primary-emphasis">
+                      Deployed Site
+                    </button>
                   </a>
                 </div>
                 <div className="col">
                   <a href="https://github.com/cookingparty/cooking-party">
-                    GitHub
+                    <button type="button" className="btn btn-primary-emphasis">
+                      GitHub
+                    </button>
                   </a>
                 </div>
               </div>
@@ -182,12 +194,16 @@ const Projects = () => {
               <div className="row">
                 <div className="col">
                   <a href="https://spiffy-stickies.onrender.com/#/">
-                    Deployed Site
+                    <button type="button" className="btn btn-primary-emphasis">
+                      Deployed Site
+                    </button>
                   </a>
                 </div>
                 <div className="col">
                   <a href="https://github.com/sarah-goewey/stackathon">
-                    GitHub
+                    <button type="button" className="btn btn-primary-emphasis">
+                      GitHub
+                    </button>
                   </a>
                 </div>
               </div>
