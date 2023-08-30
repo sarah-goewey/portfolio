@@ -9,9 +9,6 @@ const App = () => {
     <div>
       <div className="row">
         <div className="col">
-          <h1>sarah goewey</h1>
-        </div>
-        <div className="col">
           <div className="dropdown">
             <button
               className="btn btn-secondary btn-lg dropdown-toggle"
@@ -39,6 +36,9 @@ const App = () => {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="col">
+          <h1>sarah goewey</h1>
         </div>
       </div>
       <Routes>
