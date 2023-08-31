@@ -9,11 +9,7 @@ const ProjectsPage = () => {
       <div id="carouselExampleIndicators" className="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img
-              src="./static/images/bcr.png"
-              className="d-block w-75 mx-auto"
-              alt="image of backup cash register"
-            />
+            <h2>Backup Cash Register</h2>
             <div className="row">
               <div className="col">
                 <a href="https://backup-cash-register.onrender.com/#/">
@@ -30,6 +26,11 @@ const ProjectsPage = () => {
                 </a>
               </div>
             </div>
+            <img
+              src="./static/images/bcr.png"
+              className="img-thumbnail d-block w-75 mx-auto"
+              alt="image of backup cash register"
+            />
             <br />
             <div className="row" style={{ width: "75%", margin: "auto" }}>
               This project was inspired by a common frustration from my time in
@@ -41,13 +42,10 @@ const ProjectsPage = () => {
               to. Users can also save their transactions to their account, for
               later reference.
             </div>
+            <br />
           </div>
           <div className="carousel-item">
-            <img
-              src="./static/images/cavesofmercury.png"
-              className="d-block w-75 mx-auto"
-              alt="image of caves of mercury app"
-            />
+            <h2>Caves of Mercury</h2>
             <div className="row">
               <div className="col">
                 <a href="https://caves-of-mercury.onrender.com/">
@@ -64,6 +62,11 @@ const ProjectsPage = () => {
                 </a>
               </div>
             </div>
+            <img
+              src="./static/images/cavesofmercury.png"
+              className="img-thumbnail d-block w-75 mx-auto"
+              alt="image of caves of mercury app"
+            />
             <br />
             <div className="row" style={{ width: "75%", margin: "auto" }}>
               Caves of Mercury is a deliberately super-simplified social
@@ -75,13 +78,10 @@ const ProjectsPage = () => {
               be acknowledged? Caves of Mercury uses this contraint to offer
               users a zen experience of pure, uncomplicated connection.{" "}
             </div>
+            <br />
           </div>
           <div className="carousel-item">
-            <img
-              src="./static/images/cookingparty.png"
-              className="d-block w-75 mx-auto"
-              alt="image of cooking party app"
-            />
+            <h2>Cooking Party</h2>
             <div className="row">
               <div className="col">
                 <a href="https://cooking-party.onrender.com/">
@@ -98,6 +98,11 @@ const ProjectsPage = () => {
                 </a>
               </div>
             </div>
+            <img
+              src="./static/images/cookingparty.png"
+              className="img-thumbnail d-block w-75 mx-auto"
+              alt="image of cooking party app"
+            />
             <br />
             <div className="row" style={{ width: "75%", margin: "auto" }}>
               Built in collaboration with Rebecca Cherry, Angel Gao and Nicholas
@@ -110,13 +115,10 @@ const ProjectsPage = () => {
               meal planner, send, accept and reject friend requests, join
               groups, and chat with other online users.{" "}
             </div>
+            <br />
           </div>
           <div className="carousel-item">
-            <img
-              src="./static/images/spiffystickies.png"
-              className="d-block w-75 mx-auto"
-              alt="image of spiffy stickies app"
-            />
+            <h2>Spiffy Stickies</h2>
             <div className="row">
               <div className="col">
                 <a href="https://spiffy-stickies.onrender.com/#/">
@@ -133,6 +135,11 @@ const ProjectsPage = () => {
                 </a>
               </div>
             </div>
+            <img
+              src="./static/images/spiffystickies.png"
+              className="img-thumbnail d-block w-75 mx-auto"
+              alt="image of spiffy stickies app"
+            />
             <br />
             <div className="row" style={{ width: "75%", margin: "auto" }}>
               Completed during my tenure at Fullstack Academy, Spiffy Stickies
@@ -141,6 +148,7 @@ const ProjectsPage = () => {
               Users are able to choose the color and font of their sticky notes,
               and even add a little emoji to their note's title.{" "}
             </div>
+            <br />
           </div>
         </div>
         <button
