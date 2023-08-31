@@ -2,11 +2,11 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="container text-center">
-      <hr />
-      <h1>about</h1>
-      <hr />
-      <div className="row">
+    <div className="container text-center position-relative">
+      <h1 className="position-absolute top-0 end-0 text-primary-emphasis">
+        about
+      </h1>
+      <div className="row" style={{ paddingTop: "75px" }}>
         <img
           src="./static/images/sarah_img.png"
           className="img-thumbnail col"
