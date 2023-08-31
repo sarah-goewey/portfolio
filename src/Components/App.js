@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import About from "./About";
 import Projects from "./Projects";
+import ProjectsPage from "./ProjectsPage";
 import Resume from "./Resume";
 import { Link, Routes, Route } from "react-router-dom";
 
@@ -44,7 +45,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/resume" element={<Resume />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects" element={<ProjectsPage />} />
       </Routes>
     </div>
   );
