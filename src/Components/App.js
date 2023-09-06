@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import About from "./About";
-import Projects from "./Projects";
 import ProjectsPage from "./ProjectsPage";
 import Resume from "./Resume";
 import { Link, Routes, Route } from "react-router-dom";
