@@ -27,7 +27,7 @@ const App = () => {
               </li>
               <li>
                 <Link className="dropdown-item" to="/resume">
-                  resume & contact
+                  resume
                 </Link>
               </li>
               <li>
