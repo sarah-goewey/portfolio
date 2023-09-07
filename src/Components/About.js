@@ -8,10 +8,10 @@ const About = () => {
       </h1>
       <div className="row" style={{ paddingTop: "75px" }}>
         <img
-          src="./static/images/sarah_img.png"
+          src="./static/images/sarah_img.jpg"
           className="img-thumbnail col"
           alt="photo of sarah goewey"
-          style={{ width: "25%" }}
+          style={{ width: "25%", objectFit: "cover" }}
         />
         <div className="col">
           <p>
