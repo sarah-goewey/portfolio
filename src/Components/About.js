@@ -11,7 +11,7 @@ const About = () => {
           src="./static/images/sarah_img.jpg"
           className="img-thumbnail col"
           alt="photo of sarah goewey"
-          style={{ width: "25%", objectFit: "cover" }}
+          style={{ width: "25%", minWidth: "500px", objectFit: "contain" }}
         />
         <div className="col">
           <p>
