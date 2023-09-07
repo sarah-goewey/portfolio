@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import About from "./About";
 import ProjectsPage from "./ProjectsPage";
 import Resume from "./Resume";
+import Contact from "./Contact";
 import { Link, Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -34,9 +35,15 @@ const App = () => {
                   projects
                 </Link>
               </li>
+              <li>
+                <Link className="dropdown-item" to="/contact">
+                  contact
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
+
         <div className="position-absolute top-0 end-0">
           <h1>sarah goewey</h1>
         </div>
@@ -45,6 +52,7 @@ const App = () => {
         <Route path="/" element={<About />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
